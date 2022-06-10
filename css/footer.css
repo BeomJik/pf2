@@ -1,0 +1,164 @@
+footer{  
+  height: 274px;
+}
+footer .wrap{    
+  position: relative;
+}
+footer .top{ /* 제주항공 소개 줄 */
+  
+}
+footer .top ul{    
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 80%;
+}
+footer .top ul li{
+  text-align: center;
+  overflow: hidden;
+}
+footer .top ul li a{
+display: block;
+line-height: 4;
+color: #333;
+font-weight: bold;
+}
+footer .top ul li:not(:nth-child(1)) a::before{ 
+  content: "";
+  width: 1px;
+  height: 16px;
+  background: #777;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 25px 0 0;
+}
+footer .top .family{ /* 페밀리 사이트 */
+  background: #f2f2f2;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 30px) / 2);
+  width: 130px;
+  line-height: 2.5;
+  display: block;
+  text-align: left;
+  padding: 0 10px;
+  border: none;
+  color: #444;
+}
+footer .top .family::after{
+  content: "";
+  display: inline-block;
+  border-top: 4px solid #666; 
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  transform: rotate(180deg);
+  width: 0;
+  height: 0;
+  margin: 0 0 2px 35px;
+}
+footer .bot{
+  border-top: 1px solid #eee;
+  padding: 20px 0 0 0;
+}
+footer .bot .wrap{
+    position: relative;
+}
+footer .bot .jj{
+  
+  display: flex;
+  line-height: 2;
+}
+footer .bot h6{ /* 제주항공 회색 로고 */
+  background: url(https://static.jejuair.net/cms/images/banner_image/20211108172526406.png) no-repeat;
+  width: 82px;
+  height: 16px;
+  font-size: 0;
+  background-size: 100%;
+  display: inline-block;
+}
+footer .bot ul{   
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+  font-size: 13px;
+  margin-top: -4px;
+}
+footer .bot ul li{
+    
+}
+footer .bot ul li a{
+    color: #888;
+}
+footer .bot ul li:not(:nth-child(1)) a::before{
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #777;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 25px 0 0;
+}
+footer .bot .wrap .bt{ 
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+footer .bot .wrap .bt a{
+  color: #777;
+}
+footer .bot .ios{ /* appstore 버튼 */
+  border: none;
+  background: transparent;
+  margin-right: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+footer .bot .and{ /* playstore 버튼 */
+  border: none;
+  background: transparent;
+  font-size: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+footer .bot .ios::before{
+  content: "";
+  background: url(https://static.jejuair.net/hpgg/resources/images/icon/icon-footer-app-ios.png);
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  vertical-align: -5px;
+}
+footer .bot .and::before{
+  content: "";
+  background: url(https://static.jejuair.net/hpgg/resources/images/icon/icon-footer-app-aos.png);
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  vertical-align: -5px;
+}
+footer .bot .cop{  
+  font-size: 13px;
+  color: #777;
+  line-height: 1.6;
+  margin-left: 135px;
+  display: inline-block;
+}
+footer .bot .saup{
+}
+footer .bot .saup span{
+  
+}
+footer .bot .saup span::before{
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #777;
+  display: inline-block;
+  margin: 0px 10px;
+  vertical-align: -1px;
+}
+footer .bot .address{
+    
+}
+footer .bot .copy{
+    
+}

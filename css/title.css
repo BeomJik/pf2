@@ -1,0 +1,102 @@
+#title{
+  background-image: url(https://static.jejuair.net/cms/images/main_ind_domain/20220106103214652.png);
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+}
+#title .wrap{
+  text-align: center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#title .col1{
+  background: linear-gradient( 0deg, #ff5000 100%, #fff0 100%);
+  width: 45%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skew(-21deg);
+  border-radius: 0 0 60% 0;
+  display: block;
+}
+#title .col1::before{
+  content: "";
+  background: linear-gradient( 0deg, #ff5000 100%, #fff0 100%);
+  display: block;
+  width: 90%;
+  height: 460px;
+  position: absolute;
+  left: -220px;
+} 
+#title .col2{
+background: linear-gradient( -69deg, #ff5000 80%, #fff0 80%);
+width: 30%;
+height: 100%;
+position: absolute;
+top: 0;
+right: 0;
+}
+#title .control{
+  color: #fff;
+  display: block;
+  position: absolute;
+  top: calc((100% - 120px) / 2);
+  left: 35%;
+}
+#title .control h2{   
+  font-size: 30px;
+  line-height: 1.6;
+}
+#title .control h2 a{
+  color: #fff;
+  display: block;
+  text-align: left;
+}
+#title .control p{  
+  color: #fff;
+  text-align: left;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+#title .control p a{
+  color: #fff;
+}
+#title .bt_control{
+ 
+}
+#title .ti_prev{
+  border-radius: 50%;
+  border: none;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  background-image: url(../img/arrow_back_white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0000002e;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 48px);
+  left: -20px;
+}
+#title .ti_next{
+  border-radius: 50%;
+  border: none;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  background-image: url(../img/arrow_forward_white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0000002e;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 48px);
+  right: -20px;
+}

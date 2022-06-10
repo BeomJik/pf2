@@ -1,0 +1,243 @@
+main{
+  margin: 80px auto;
+}
+main #main{
+
+}
+main .wrap{
+
+}
+/* 추천 항공권 */
+main .suggestion{
+  position: relative;
+  width: 1100px;
+}
+main .suggestion h2{ 
+  margin: 30px 0;
+  font-size: 20px;
+}
+main .suggestion ul{   
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+main .suggestion ul li{   
+  line-height: 1.6;
+  overflow: hidden;
+}
+main .suggestion ul li a{    
+  height: 100%;
+  display: block;
+}
+main .suggestion ul li:nth-child(1) a::before{
+  content: "";
+  background-image: url(https://static.jejuair.net/cms/images/immigration_card/20220106104226172.png);
+  width: 238px;
+  height: 238px;
+  display: block;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+main .suggestion ul li:nth-child(2) a::before{
+  content: "";
+  background-image: url(https://static.jejuair.net/cms/images/immigration_card/20220104160914978.png);
+  width: 238px;
+  height: 238px;
+  display: block;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+main .suggestion ul li:nth-child(3) a::before{
+  content: "";
+  background-image: url(https://static.jejuair.net/cms/images/immigration_card/20211118113032107.png);
+  width: 238px;
+  height: 238px;
+  display: block;
+  border-radius: 50%;
+  margin: 20px 0;
+}main .suggestion ul li:nth-child(4) a::before{
+  content: "";
+  background-image: url(https://static.jejuair.net/cms/images/immigration_card/20220118090123391.png);
+  width: 238px;
+  height: 238px;
+  display: block;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+main .suggestion ul li a h3{
+    
+}
+main .suggestion ul li a .p{
+  font-size: 14px;
+  color: #888;
+}
+main .suggestion ul li a .p strong{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 0 5px;
+  color: #000;
+}
+main .suggestion ul li a .date{
+  font-size: 14px;
+  font-weight: lighter;
+  color: #000;
+}
+main .suggestion .ma_prev{
+  position: absolute;
+  left: -40px;
+  bottom: 180px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 60px;
+  height: 60px;
+  background: url(../img/arrow_back_black.svg) #fff no-repeat center;
+  font-size: 0;
+  cursor: pointer;
+}
+main .suggestion .ma_next{
+  position: absolute;
+  bottom: 180px;
+  right: -40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 60px;
+  height: 60px;
+  background: url(../img/arrow_forward_black.svg) #fff no-repeat center;
+  font-size: 0;
+  cursor: pointer;
+}/* 추천 항공권 */
+/* 회원혜택 */
+main .member{ 
+  margin: 40px auto;
+  font-size: 20px;
+}
+main .member h4{
+    
+  line-height: 4;
+}
+main .member a{
+  background: #ffd7b8;
+  border-radius: 5px;
+  display: block;
+  height: 120px;
+}
+main .member a::before{
+  content: "";   
+  background: url(https://static.jejuair.net/cms/images/banner_image/20211103160036963.png);
+  width: 110px;
+  height: 120px;
+  display: inline-block;
+  margin: 0 5px 0 145px;
+  
+}
+main .member a p{
+  display: inline-block;
+  vertical-align: 38px;
+  line-height: 1.5;
+}
+/* 회원혜택 */
+.main_b .call{ /* 고객센터, sns, 마케팅 제휴 */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+/* 고객센터 */
+.main_b{
+
+  background: #f8f8f8;
+  height: 160px;
+  line-height: 2;
+  border-bottom: 1px solid #ff5a0f;
+}
+.main_b .wrap{
+  
+}
+.main_b .call .left{ 
+}
+.main_b .call .left .cs{    
+  font-size: 14px;
+}
+.main_b .call .left .jp{   
+  font-size: 13px;
+  color: #777;
+}
+.main_b .call .left .direct{    
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0px 10px;
+  background: #fff;
+  border: 1px solid #ccc; 
+}
+.main_b .call .left .direct a{
+  color: #777;
+}
+/* 고객센터 */
+/* sns */
+.main_b .call .center{    
+  font-size: 14px;
+}
+.main_b .call .center .sns{
+
+}
+.main_b .call .center ul{ 
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 0 0;
+}
+.main_b .call .center ul li{
+    
+}
+.main_b .call .center ul li a{
+    
+}
+.main_b .call .center ul li:nth-child(1) a{
+  background: url(https://static.jejuair.net/cms/images/sns_ch/20211027200713454.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: 100%;
+  font-size: 0;
+}
+.main_b .call .center ul li:nth-child(2) a{
+  background: url(https://static.jejuair.net/cms/images/sns_ch/20211027200700139.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: 100%;
+  font-size: 0;
+}
+.main_b .call .center ul li:nth-child(3) a{
+  background: url(https://static.jejuair.net/cms/images/sns_ch/20211027200545316.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: 100%;
+  font-size: 0;
+}
+/* sns */
+/* 마케팅 제휴 */
+.main_b .call .right{     
+  line-height: 1;
+}
+.main_b .call .right .mkt{   
+  display: inline-block;
+  font-size: 14px;
+}
+.main_b .call .right .mkt span{
+  color: #ff5a0f;
+  margin: 0 0 0 15px;
+}
+.main_b .call .right .mail{    
+  display: inline-block;
+}
+.main_b .call .right p.b{    
+  font-size: 13px;
+  margin: 15px 0 0 0;
+  line-height: 1.4;
+  color: #777;
+}
+.main_b .call .right .spam{    
+  font-size: 13px;
+  text-decoration: underline;
+  margin: 20px 0 0 0;
+}/* 마케팅 제휴 */
